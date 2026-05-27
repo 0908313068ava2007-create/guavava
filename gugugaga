@@ -1,0 +1,214 @@
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ava Luo | Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f5f7fb;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    header {
+      background: linear-gradient(135deg, #5b7fff, #8aa6ff);
+      color: white;
+      padding: 50px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    .content {
+      padding: 40px;
+      display: grid;
+      gap: 40px;
+    }
+
+    section h2 {
+      color: #4c6fff;
+      margin-bottom: 15px;
+      font-size: 24px;
+      border-left: 5px solid #4c6fff;
+      padding-left: 12px;
+    }
+
+    .card {
+      background: #f8faff;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #4c6fff;
+      text-decoration: none;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #e8eeff;
+      color: #3554d1;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+      background: #fafafa;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 35px;
+      }
+
+      .content {
+        padding: 25px;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>羅詩涵 Ava Luo</h1>
+      <p>Student｜English Communication｜Cross-cultural Activities</p>
+    </header>
+
+    <div class="content">
+      <section>
+        <h2>About Me</h2>
+        <div class="card">
+          <p>
+            我是羅詩涵（Ava），目前就讀大學，對英文溝通、跨文化交流與內容設計有濃厚興趣。
+            過去曾參與接待交換學生、英文戲劇演出、英文演講與營隊活動，也喜歡透過設計與社群內容整理自己的想法。
+            我希望未來能持續提升自己的語言能力與表達能力，並累積更多不同領域的合作經驗。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="card">
+          <h3>National Chung Cheng University</h3>
+          <p>Department of Political Science</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Experience & Activities</h2>
+
+        <div class="card">
+          <h3>Exchange Student Hosting</h3>
+          <p>Hosted exchange students from Poland, Canada, Brazil, and the United States.</p>
+        </div>
+
+        <div class="card">
+          <h3>English Drama Performance</h3>
+          <p>
+            Participated as a leading role in an English drama performance and received audience recognition.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>English Speech Contest</h3>
+          <p>
+            Received an honorable mention in a municipal English speech competition.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Summer Cool Conference</h3>
+          <p>
+            Worked with teammates on an English presentation project and won first place in group presentation.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Camp & Social Media Activities</h3>
+          <p>
+            Participated in camp-related planning and visual content tasks, including social media and promotional materials.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skill">English Communication</div>
+          <div class="skill">Presentation</div>
+          <div class="skill">Canva</div>
+          <div class="skill">Social Media Content</div>
+          <div class="skill">Teamwork</div>
+          <div class="skill">Public Speaking</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <div class="card">
+          <p><strong>Email：</strong>ava2007@gmail.com</p>
+          <p>
+            <strong>GitHub：</strong>
+            <a href="https://github.com/0908313068ava2007-create/guava" target="_blank">
+              github.com/0908313068ava2007-create/guava
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      © 2026 Ava Luo
+    </footer>
+  </div>
+</body>
+</html>
+```
